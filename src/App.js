@@ -23,7 +23,7 @@ function App() {
      <BrowserRouter>
      <Routes>
      <Route path="/" element={< PeliGrid />} /> 
-     <Route path="/Peliculas" element={< Peliculas />} />
+     <Route path="/Peliculas/:movie.id/:movie.title" element={< Peliculas />} />
      </Routes>
      </BrowserRouter>
     </div>
