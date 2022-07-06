@@ -11,7 +11,7 @@ return <li className={styles.MoviCard}>
     width={230}
     height={345}
     className={styles.MoviImage} src={imageUrl} alt={movie.title} />
-     <Button  size="small" onClick={()=>(navige('/Peliculas',{movie} ))}
+     <Button  size="small" onClick={()=>(navige(`Peliculas/${movie.id}/${movie.title}`))}
           >Info</Button>  
    <div> {movie.title}
    </div>
